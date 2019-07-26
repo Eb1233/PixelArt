@@ -1,0 +1,45 @@
+body {
+    text-align: center;
+    background-image: url("https://www.fabulousblogging.com/wp-content/uploads/2012/10/emilie_blog_bg.jpg");
+}
+
+h1 {
+    font-family: Monoton;
+    font-size: 70px;
+    margin: 0.2em;
+    color:purple;
+}
+
+h2 {
+    margin: 1em 0 0.25em;
+    color:rgb(90, 88, 88);
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+    color:rgb(90, 88, 88);
+}
+
+table,
+tr,
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+input[type=number] {
+    width: 6em;
+    color:rgb(90, 88, 88);
+}
